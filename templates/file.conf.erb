@@ -1,0 +1,8 @@
+#
+# MANAGED BY PUPPET. All your changes will be removed.
+#
+
+check <%= @type %> <%= @name %> with path <%= @path %>
+<% @checks.each do |check| -%>
+  <%= check %>
+<% end -%>

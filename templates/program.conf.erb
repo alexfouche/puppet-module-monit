@@ -1,3 +1,7 @@
+#
+# MANAGED BY PUPPET. All your changes will be removed.
+#
+
 check program <%= @name %> with path "<%= @program_file %>"
 <% if @program_timeout -%>
     with timeout <%= @program_timeout %> seconds

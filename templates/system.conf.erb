@@ -1,3 +1,7 @@
+#
+# MANAGED BY PUPPET. All your changes will be removed.
+#
+
 check system <%= @host %>
 <% if @load1 -%>
   if loadavg (1min) > <%= @load1 %> then <%= @action %>
